@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/xampp/htdocs/minimarket%20sita/index.html -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkringan</title>
+    <link rel="stylesheet" href="./Angkringan_files/style.css">
+</head>
+<body>
+    <div class="container">
+       <marquee> <h1>SELAMAT DATANG DI MINIMARKET</h1></marquee>
+
+        <div id="product-list">
+            <h2>DAFTAR PRODUK</h2>
+            <div id="products" class="product-container"><div class="product">
+            <img src="./Angkringan_files/bengbeng.jpg" alt="bengbeng" width="150">
+
+            <h3>bengbeng</h3>
+            <p>Rp 2000</p>
+
+            <button onclick="addToCart(1)">
+                Tambah ke keranjang
+            </button>
+        </div><div class="product">
+            <img src="./Angkringan_files/boncabe.webp" alt="boncabe" width="150">
+
+            <h3>boncabe</h3>
+            <p>Rp 1000</p>
+
+            <button onclick="addToCart(2)">
+                Tambah ke keranjang
+            </button>
+        </div><div class="product">
+            <img src="./Angkringan_files/cocopie.png" alt="chocopie" width="150">
+
+            <h3>chocopie</h3>
+            <p>Rp 2000</p>
+
+            <button onclick="addToCart(3)">
+                Tambah ke keranjang
+            </button>
+        </div><div class="product">
+            <img src="./Angkringan_files/maxicorn.png" alt="maxicorn" width="150">
+
+            <h3>maxicorn</h3>
+            <p>Rp 2000</p>
+
+            <button onclick="addToCart(4)">
+                Tambah ke keranjang
+            </button>
+        </div><div class="product">
+            <img src="./Angkringan_files/qtela singkong.jpg" alt="qtela singkong" width="150">
+
+            <h3>qtela singkong</h3>
+            <p>Rp 2000</p>
+
+            <button onclick="addToCart(5)">
+                Tambah ke keranjang
+            </button>
+        </div><div class="product">
+            <img src="./Angkringan_files/qtela.avif" alt="qtela" width="150">
+
+            <h3>qtela</h3>
+            <p>Rp 2000</p>
+
+            <button onclick="addToCart(6)">
+                Tambah ke keranjang
+            </button>
+        </div></div>
+        </div>
+
+        <div id="cart">
+            <h2>Keranjang Belanja</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: Rp <span id="total-price">0</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="./Angkringan_files/script.js"></script>
+
+
+</body></html>
